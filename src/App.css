@@ -26,11 +26,14 @@ body {
 
 .front-page-button {
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 5em;
+    font-size: 4em;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: #f0bd71;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .front-page-button:hover {
@@ -47,6 +50,6 @@ body {
 
 .animation1 {
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 10em;
+    font-size: 7em;
     color: #b8673e;
 }

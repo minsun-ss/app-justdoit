@@ -25,7 +25,20 @@ function HomePage() {
   );
 }
 
-function SplitText() {
+function EaseIn() {
+  return (
+    <motion.h1
+      className="animation1"
+      initial={{ y: 1000, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 1, ease: "easeInOut" }}
+    >
+      Yes?
+    </motion.h1>
+  );
+}
+
+function VideoIn() {
   return (
     <motion.h1
       className="animation1"
@@ -43,7 +56,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/answer" element={<SplitText />} />
+        <Route path="/answer" element={<EaseIn />} />
       </Routes>
     </Router>
   );
