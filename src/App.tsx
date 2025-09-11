@@ -4,8 +4,16 @@ import {
   Route,
   useNavigate,
 } from "react-router-dom";
-import { motion } from "framer-motion";
 import "./App.css";
+import { EaseIn, EaseIn2 } from "./animations/1.tsx";
+
+const animationList = [EaseIn, EaseIn2];
+
+function RandomAnimationRoute() {
+  const randomAnimationIdx = Math.floor(Math.random() * animationList.length);
+  const RandomAnimation = animationList[randomAnimationIdx];
+  return <RandomAnimation />;
+}
 
 function HomePage() {
   const navigate = useNavigate();
@@ -25,25 +33,12 @@ function HomePage() {
   );
 }
 
-function EaseIn() {
-  return (
-    <motion.h1
-      className="animation1"
-      initial={{ y: 1000, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 1, ease: "easeInOut" }}
-    >
-      Yes?
-    </motion.h1>
-  );
-}
-
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/answer" element={<EaseIn />} />
+        <Route path="/answer" element={<RandomAnimationRoute />} />
       </Routes>
     </Router>
   );
