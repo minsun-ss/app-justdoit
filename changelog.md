@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2025-09-11
+
+### 🚀 Features
+
+- Moved the animation to a separate animations directory and added randomization effect on the random draw
+- Added a second working animation and adjusted css to accommoate border adjusting text
+
+### ⚙️ Miscellaneous Tasks
+
+- Set up version
+
 ## [1.0.0] - 2025-09-08
 
 ### 🚀 Features
