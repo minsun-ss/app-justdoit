@@ -5,3 +5,9 @@ Well, will you?
 # What is this?
 
 I wanted to learn how to make Javascript animations, and I needed a push to do it.
+
+# To do
+
+- rain effect in p5.js
+- css hover effect
+- dithering?
