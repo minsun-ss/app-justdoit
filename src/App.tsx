@@ -6,10 +6,10 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import { EaseIn, EaseIn2 } from "./animations/1.tsx";
-import { ThreeBody } from "./animations/threebody.tsx";
+import { NoMeansYes } from "./animations/nomeansyes.tsx";
 import Sketch from "react-p5";
 
-const animationList = [EaseIn, EaseIn2, ThreeBody];
+const animationList = [EaseIn, EaseIn2, NoMeansYes];
 
 function RandomAnimationRoute() {
   const randomAnimationIdx = Math.floor(Math.random() * animationList.length);
@@ -36,7 +36,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/answer" element={<RandomAnimationRoute />} />
-        <Route path="/p5" element={<ThreeBody />} />
+        {/*<Route path="/test" element={<NoMeansYes />} />*/}
       </Routes>
     </Router>
   );
