@@ -1,6 +1,7 @@
-import "../css/nomeansyes.css";
+import { useRouteCSS } from "./homepage";
 
 export function NoMeansYes() {
+  useRouteCSS("/src/css/nomeansyes.css");
   const body = document.body;
   const tilesNeeded =
     Math.ceil(window.innerWidth / 40) * Math.ceil(window.innerHeight / 30);
