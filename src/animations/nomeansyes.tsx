@@ -1,4 +1,4 @@
-import { useRouteCSS } from "./homepage";
+import { useRouteCSS } from "./util";
 
 export function NoMeansYes() {
   useRouteCSS("/src/css/nomeansyes.css");
@@ -12,4 +12,6 @@ export function NoMeansYes() {
     noTile.className = "tile";
     body.appendChild(noTile);
   }
+
+  return null;
 }

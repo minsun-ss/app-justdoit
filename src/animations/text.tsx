@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useRouteCSS } from "./homepage";
+import { useRouteCSS } from "./util";
 
 export function EaseIn() {
   useRouteCSS("/src/css/homepage.css");

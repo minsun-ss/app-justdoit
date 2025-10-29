@@ -3,7 +3,7 @@ import { EaseIn, EaseIn2 } from "./animations/text.tsx";
 import { NoMeansYes } from "./animations/nomeansyes.tsx";
 import { HomePage } from "./animations/homepage.tsx";
 
-const animationList = [EaseIn, EaseIn2, NoMeansYes];
+const animationList: React.ComponentType[] = [EaseIn, EaseIn2, NoMeansYes];
 
 function RandomAnimationRoute() {
   const randomAnimationIdx = Math.floor(Math.random() * animationList.length);
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/answer" element={<RandomAnimationRoute />} />
-        <Route path="/test" element={<NoMeansYes />} />
+        {/*<Route path="/test" element={<NoMeansYes />} />*/}
       </Routes>
     </Router>
   );
