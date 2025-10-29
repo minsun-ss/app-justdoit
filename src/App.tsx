@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { EaseIn, EaseIn2 } from "./animations/1.tsx";
+import { EaseIn, EaseIn2 } from "./animations/text.tsx";
 import { NoMeansYes } from "./animations/nomeansyes.tsx";
 import { HomePage } from "./animations/homepage.tsx";
 
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/answer" element={<RandomAnimationRoute />} />
-        {/*<Route path="/test" element={<NoMeansYes />} />*/}
+        <Route path="/test" element={<NoMeansYes />} />
       </Routes>
     </Router>
   );
