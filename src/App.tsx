@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { EaseIn, EaseIn2 } from "./animations/1.tsx";
+import { EaseIn, EaseIn2 } from "./animations/text.tsx";
 import { NoMeansYes } from "./animations/nomeansyes.tsx";
 import { HomePage } from "./animations/homepage.tsx";
 
-const animationList = [EaseIn, EaseIn2, NoMeansYes];
+const animationList: React.ComponentType[] = [EaseIn, EaseIn2, NoMeansYes];
 
 function RandomAnimationRoute() {
   const randomAnimationIdx = Math.floor(Math.random() * animationList.length);
