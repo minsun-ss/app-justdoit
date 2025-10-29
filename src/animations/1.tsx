@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
+import { useRouteCSS } from "./homepage";
 
 export function EaseIn() {
+  useRouteCSS("/src/css/homepage.css");
+
   return (
     <motion.h1
       className="animation1"
@@ -14,6 +17,8 @@ export function EaseIn() {
 }
 
 export function EaseIn2() {
+  useRouteCSS("/src/css/homepage.css");
+
   return (
     <motion.h1
       className="animation1"
