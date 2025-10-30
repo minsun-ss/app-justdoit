@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.0] - 2025-10-30
+
+### 🚀 Features
+
+- Added a p5.js rain animation and pinned p5 packages
+
+### 🐛 Bug Fixes
+
+- Change the routing for css
+- Changed the text animation so that the root body goes away
+- Fix display of lettering in the css
+- React paths?
+- Fix the css animation
+- Fix the typing issue in three body and add p5 to the packages
+- Fix the dependencies file
+
 ## [2.1.0] - 2025-10-29
 
 ### 🚀 Features
