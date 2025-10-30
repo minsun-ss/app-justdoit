@@ -2,7 +2,7 @@ import { useRouteCSS } from "./util";
 import { useEffect } from "react";
 
 export function NoMeansYes() {
-  useRouteCSS("/src/css/nomeansyes.css");
+  useRouteCSS("/css/nomeansyes.css");
   useEffect(() => {
     const body = document.body;
     const viewportHeight = document.documentElement.clientHeight;

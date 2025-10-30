@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useRouteCSS } from "./util";
 
 export function EaseIn() {
-  useRouteCSS("/src/css/homepage.css");
+  useRouteCSS("/css/homepage.css");
 
   return (
     <motion.h1

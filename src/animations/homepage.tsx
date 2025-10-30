@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useRouteCSS } from "./util";
 
 export function HomePage() {
-  useRouteCSS("/src/css/homepage.css");
+  useRouteCSS("/css/homepage.css");
   const navigate = useNavigate();
 
   return (
