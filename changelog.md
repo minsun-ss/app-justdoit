@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.1] - 2025-10-30
+
+### 🐛 Bug Fixes
+
+- Move the css to a public asset folder for the website
+
 ## [2.3.0] - 2025-10-30
 
 ### 🚀 Features
