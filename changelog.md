@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.3] - 2025-10-30
+
+### 🐛 Bug Fixes
+
+- Oh man turns out you can't use index.css from the public folder?
+
 ## [2.3.2] - 2025-10-30
 
 ### 🐛 Bug Fixes
