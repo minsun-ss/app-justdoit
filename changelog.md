@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.4] - 2025-10-30
+
+### 🐛 Bug Fixes
+
+- Use the correct index.css this time
+
 ## [2.3.3] - 2025-10-30
 
 ### 🐛 Bug Fixes
