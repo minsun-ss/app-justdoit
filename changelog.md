@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.3.2] - 2025-10-30
+
+### 🐛 Bug Fixes
+
+- fix the css issue in the easein 2 by nuking it, tinkered with the rain animation but didn't seem to fix it...
+
 ## [2.3.1] - 2025-10-30
 
 ### 🐛 Bug Fixes

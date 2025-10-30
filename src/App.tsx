@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { EaseIn, EaseIn2 } from "./animations/text.tsx";
+import { TextEaseIn } from "./animations/text.tsx";
 import { NoMeansYes } from "./animations/nomeansyes.tsx";
 import { HomePage } from "./animations/homepage.tsx";
 import { Rain } from "./animations/rain.tsx";
 
-const animationList: React.ComponentType[] = [EaseIn, EaseIn2, NoMeansYes, Rain];
+const animationList: React.ComponentType[] = [TextEaseIn, NoMeansYes, Rain];
 
 function RandomAnimationRoute() {
   const randomAnimationIdx = Math.floor(Math.random() * animationList.length);

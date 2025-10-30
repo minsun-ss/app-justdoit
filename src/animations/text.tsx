@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useRouteCSS } from "./util";
 
-export function EaseIn() {
+export function TextEaseIn() {
   useRouteCSS("/css/homepage.css");
 
   return (
@@ -11,22 +11,7 @@ export function EaseIn() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 1, ease: "backInOut" }}
     >
-      Yes?
-    </motion.h1>
-  );
-}
-
-export function EaseIn2() {
-  useRouteCSS("/src/css/homepage.css");
-
-  return (
-    <motion.h1
-      className="animation1"
-      initial={{ y: 1000, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 1, ease: "anticipate" }}
-    >
-      But Of Course?
+      Yes!?
     </motion.h1>
   );
 }

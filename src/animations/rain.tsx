@@ -13,8 +13,10 @@ export function Rain() {
     constructor(p5: p5Types, width: number, height: number) {
       this.width = width;
       this.height = height;
+      this.x = Math.random() * width;
+      this.y = 0 - Math.random() * 300;
+      this.velocity = Math.random() * 7 + 3;
       this.p5 = p5;
-      this.reset();
     }
 
     canvas(width: number, height: number) {
@@ -27,9 +29,6 @@ export function Rain() {
       if (this.y >= this.height) {
         this.reset();
       }
-    }
-
-    display() {
       this.p5.circle(this.x, this.y, 5);
     }
 
@@ -58,7 +57,6 @@ export function Rain() {
 
     for (let drop = 0; drop < rain.length; drop++) {
       rain[drop].fall();
-      rain[drop].display();
     }
 
     p5.textSize(120);
