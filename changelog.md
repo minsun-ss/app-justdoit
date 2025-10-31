@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.4.0] - 2025-10-31
+
+### 🚀 Features
+
+- Tristan's cool new animation in p5.js
+
 ## [2.3.4] - 2025-10-30
 
 ### 🐛 Bug Fixes
