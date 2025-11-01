@@ -1,6 +1,8 @@
 import Sketch from "react-p5";
 import p5Types from "p5";
 
+// This is a function that Tristan wrote on his first try with
+// p5.js!
 export function Circles() {
   let col = 0;
   let siz = 100;
