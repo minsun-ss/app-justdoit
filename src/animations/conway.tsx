@@ -156,7 +156,9 @@ export function ConwayCubes() {
           padding: 0,
         }}
       >
-        <p className="info">more info</p>
+        <p className="info">
+          <a href="https://yeh.today/posts/20251031-conwaycubes/">more info</a>
+        </p>
         <p className="yes">YES</p>
         <Sketch setup={setup} draw={draw} />
       </div>

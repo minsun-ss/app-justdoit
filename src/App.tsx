@@ -26,7 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/answer" element={<RandomAnimationRoute />} />
-        <Route path="/test" element={<ConwayCubes />} />
+        <Route path="/Y29ud2F5J3MgZ2FtZSBvZiBsaWZl" element={<ConwayCubes />} />
       </Routes>
     </Router>
   );
