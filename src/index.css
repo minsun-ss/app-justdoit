@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Pixelify+Sans:wght@400..700&display=swap");
+
 :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -33,6 +35,26 @@ body {
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
+}
+
+.info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    font-family: "Jetbrains Mono", sans-serif;
+    font-size: 1em;
+}
+
+.yes {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+    font-family: "Jetbrains Mono", monospace;
+    font-size: 5em;
 }
 
 button {
