@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.5.0] - 2025-11-01
+
+### 🚀 Features
+
+- Added conway cubes animation
+- Updated links and routes
+
 ## [2.4.0] - 2025-10-31
 
 ### 🚀 Features
